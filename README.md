@@ -1,8 +1,8 @@
 # simple loot piles <br>
 a simple loot pile mod for random loot <br>
 has a editable config
+## config example
 ```
-config example
 {
   "0": [
     {
@@ -36,9 +36,7 @@ config example
   ]
 }
 ```
-
 and it supports items with nbt 
-
 ```
 {
   "0": [
