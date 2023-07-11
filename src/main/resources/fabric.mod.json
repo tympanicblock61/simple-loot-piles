@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "loots",
+  "version": "${version}",
+
+  "name": "simple loot piles",
+  "description": "a simple loot pile mod for random loot",
+  "authors": [
+    "tympanicblock61"
+  ],
+  "contact": {
+    "sources": "https://github.com/tympanicblock61/simple-loot-piles"
+  },
+  "license": "ARR",
+  "icon": "assets/loots/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.tympanic.loots.Main"
+    ],
+    "client": [
+      "net.tympanic.loots.MainClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  }
+}
